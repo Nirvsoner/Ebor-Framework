@@ -19,7 +19,7 @@ if( class_exists('Ebor_Options') ){
 	
 }
 
-function variant_visual_composer_notification(){
+function frame_purchase_varification_notification(){
 	
 	if( '' == get_option('ebor_framework_username', '') && 'yes' == get_option('framework_show_welcome_modal', 'yes') ){
 		
@@ -41,7 +41,7 @@ function variant_visual_composer_notification(){
 	}
     
 }
-add_action( 'admin_notices', 'variant_visual_composer_notification' );
+add_action( 'admin_notices', 'frame_purchase_varification_notification' );
 
 //MasonThemes
 //htw0lppk5z4fhu99fjyrbuo6vmb7qxss
